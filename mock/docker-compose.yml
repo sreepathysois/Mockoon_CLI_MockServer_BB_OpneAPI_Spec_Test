@@ -1,6 +1,7 @@
 version: "3"
 services:
   mockoon:
+    platform: linux/amd64
     image: mockoon/cli:latest
     command: mockoon-cli start  --data data # this is where the change takes place
     container_name: myapi
